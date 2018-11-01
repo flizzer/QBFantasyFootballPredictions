@@ -12,6 +12,8 @@
 		4FEC53932189480400ACC546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEC53912189480400ACC546 /* Main.storyboard */; };
 		4FEC53952189480500ACC546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FEC53942189480500ACC546 /* Assets.xcassets */; };
 		4FEC53982189480500ACC546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEC53962189480500ACC546 /* LaunchScreen.storyboard */; };
+		4FEC53A021894C8100ACC546 /* QBModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC539F21894C8100ACC546 /* QBModel.mlmodel */; };
+		4FEC53A221894D4100ACC546 /* QBPrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC53A121894D4100ACC546 /* QBPrediction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4FEC53942189480500ACC546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FEC53972189480500ACC546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FEC53992189480500ACC546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FEC539F21894C8100ACC546 /* QBModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = QBModel.mlmodel; sourceTree = "<group>"; };
+		4FEC53A121894D4100ACC546 /* QBPrediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QBPrediction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		4FEC538C2189480400ACC546 /* QBFantasyFootballPredictions */ = {
 			isa = PBXGroup;
 			children = (
+				4FEC539F21894C8100ACC546 /* QBModel.mlmodel */,
 				4FEC538D2189480400ACC546 /* AppDelegate.swift */,
 				4FEC538F2189480400ACC546 /* ViewController.swift */,
 				4FEC53912189480400ACC546 /* Main.storyboard */,
 				4FEC53942189480500ACC546 /* Assets.xcassets */,
 				4FEC53962189480500ACC546 /* LaunchScreen.storyboard */,
 				4FEC53992189480500ACC546 /* Info.plist */,
+				4FEC53A121894D4100ACC546 /* QBPrediction.swift */,
 			);
 			path = QBFantasyFootballPredictions;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FEC53A021894C8100ACC546 /* QBModel.mlmodel in Sources */,
+				4FEC53A221894D4100ACC546 /* QBPrediction.swift in Sources */,
 				4FEC53902189480400ACC546 /* ViewController.swift in Sources */,
 				4FEC538E2189480400ACC546 /* AppDelegate.swift in Sources */,
 			);
